@@ -36,6 +36,10 @@ KillAll Finder"
 
 end if
 ```
+- 显示Mac安全来源
+```
+sudo spctl --master-disable
+```
 
 
 

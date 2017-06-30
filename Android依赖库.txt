@@ -22,3 +22,10 @@
     //Glide
     compile 'com.github.bumptech.glide:glide:4.0.0-RC1'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0-RC1'
+
+    //Gson
+    implementation 'com.google.code.gson:gson:2.8.1'
+
+    //Stetho (chrome://inspect/#devices)
+    compile 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+
