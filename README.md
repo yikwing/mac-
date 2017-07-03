@@ -40,6 +40,8 @@ end if
 ```
 sudo spctl --master-disable
 ```
+- Android studio配置目录
+`/Users/rongyi/Library/Preferences`
 
 
 
