@@ -43,5 +43,9 @@ sudo spctl --master-disable
 - Android studio配置目录
 `/Users/rongyi/Library/Preferences`
 
+- github读取本地json
+>https://raw.githubusercontent.com/`userID`/
+`projectName`/`branchName`/json/json.txt
+
 
 
