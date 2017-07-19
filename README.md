@@ -43,6 +43,13 @@ sudo spctl --master-disable
 - Android studio配置目录 
 `/Users/rongyi/Library/Preferences`
 
+- mac压缩解压命令
+```shell
+zip -0 -r -X Archive.zip dir     //0不压缩 1 更快 9更好
+unzip test.zip -d dir
+unzip -l test.zip
+```
+
 
 
 
