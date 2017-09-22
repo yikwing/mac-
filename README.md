@@ -50,6 +50,17 @@ unzip test.zip -d dir
 unzip -l test.zip
 ```
 
+- mac脚本语言快速执行
+```shell
+#!/usr/bin/ruby  
+#!/usr/local/bin/python3
+###
+代码块
+###
+
+#where python ruby 查看脚本语言安装路径
+#chomd +x 给与执行权限
+```
 
 
 

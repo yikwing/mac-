@@ -4,8 +4,8 @@
     compile 'com.orhanobut:logger:2.1.1'
 
     //依赖注入
-    compile 'com.jakewharton:butterknife:8.6.0'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
+    compile 'com.jakewharton:butterknife:8.8.1’
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1’
 
     //ReactiveX
     compile "io.reactivex.rxjava2:rxjava:2.1.1"
@@ -27,5 +27,5 @@
     implementation 'com.google.code.gson:gson:2.8.1'
 
     //Stetho (chrome://inspect/#devices)
-    compile 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+    compile 'com.facebook.stetho:stetho:1.5.0'
 
