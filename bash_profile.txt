@@ -1,0 +1,23 @@
+export PUB_HOSTED_URL=https://mirrors.tuna.tsinghua.edu.cn/dart-pub
+export FLUTTER_STORAGE_BASE_URL=https://mirrors.tuna.tsinghua.edu.cn/flutter
+
+# 启用 Go Modules 功能
+export GO111MODULE=on
+# 配置 GOPROXY 环境变量
+export GOPROXY=https://goproxy.io
+
+export GOPATH=/Users/zhui/go
+
+export ANDROID_HOME=/Users/zhui/Library/Android/sdk
+export ANDROID_NDK_HOME=/Users/zhui/Library/Android/sdk/ndk/20.1.5948944
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
+
+export FLUTTER=/Library/Java/JavaVirtualMachines/flutter
+export DART_SDK=$FLUTTER/bin/cache/dart-sdk
+
+export GIT="$(brew --prefix git)/bin"
+
+
+export PATH=$GOPATH/bin:$GIT:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$GRADLE_HOME/bin:$JAVA_HOME/bin:$FLUTTER/bin:$DART_LIB_SDK:$DART_SDK/bin:$ANDROID_NDK_HOME:$PATH:
+
+export PATH="$HOME/.cargo/bin:$PATH"
